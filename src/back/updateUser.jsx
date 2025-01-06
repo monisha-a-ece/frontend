@@ -8,7 +8,7 @@ const UpdateUser = () => {
     const [address,setAddress]=useState();
     const navigate=useNavigate();
 
-  const updateUser=()=>{
+  const updateUser=(e)=>{
      e.preventDefault()
     axios.put(`https://backend-250l.onrender.com/api/user/update/${id}`,{name,email,address})
     .then(result=>{
