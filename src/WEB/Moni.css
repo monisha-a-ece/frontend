@@ -1,0 +1,62 @@
+nav{
+   
+    background-color: rgb(238, 149, 33); 
+    position: fixed;
+    padding: 10px 0px;
+    top: 0%;
+        width: 100%;
+        height: auto;
+    margin: 0;
+    color: #333;
+}
+nav{
+    display:flex;
+    gap: 20px;
+    justify-content: right;
+    
+}
+#com{display:flex;
+gap:100px;
+ 
+}
+nav,#com{
+  gap:250px;
+
+}
+#whole{
+ 
+  background-image: url("https://cdn.pixabay.com/photo/2024/01/02/14/58/leaf-8483401_640.jpg");
+  background-size: cover; /* Adjust to cover the entire screen */
+  background-repeat: no-repeat; /* Avoid repeating the image */
+  background-position:center; /* Center the image */
+
+  position: relative; /* Ensure proper stacking context if needed */
+  min-height: 100vh; /* Cover the entire viewport height */
+ 
+}
+footer {
+    background-color: rgb(238, 149, 33);
+    text-shadow:beige ;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); */
+  }
+  
+  footer p {
+   
+    margin: 0;
+    color: #333;
+  }
+ 
+ 
+p{
+  text-align: center;
+  padding-top: 150px;
+  gap:1px;
+  width: 50%;
+  
+}

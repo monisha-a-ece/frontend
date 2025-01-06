@@ -1,0 +1,24 @@
+/* Simple table styling */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Merges borders */
+    margin: 20px 0; /* Adds space around the table */
+  }
+  
+  /* Styling for table headers */
+  th, td {
+    border: 1px solid #b3a8a8; /* Light border around cells */
+    padding: 8px; /* Adds padding inside the cells */
+    text-align: left; /* Aligns text to the left */
+  }
+  
+  /* Styling for table headers */
+  th {
+    background-color: #dabfbf; /* Light gray background for the header */
+  }
+  
+  /* Row hover effect */
+  tr:hover {
+    background-color: #cf9494; /* Light gray background when hovering over rows */
+  }
+  

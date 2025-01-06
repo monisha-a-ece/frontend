@@ -1,8 +1,7 @@
-import './App.css';
-import Form from './Form'
-function App() {
-  
 
+
+import './App.css';
+function App() {
   return (
     <><body>
     <div id='head'>
@@ -20,3 +19,7 @@ function App() {
 }
 
 export default App
+
+
+
+
