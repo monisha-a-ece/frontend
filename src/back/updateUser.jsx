@@ -19,18 +19,16 @@ const UpdateUser = () => {
   }
   return (
     <div>
-          <h1>Update</h1>
+         <center> <h1>Update the User</h1></center>
       <form onSubmit={updateUser}>
         <div>
           <label>Name : </label>
-          <input type="text "value={name} onChange={(e)=>setName(e.target.value)}/><br/>
+          <input type="text "value={name} onChange={(e)=>setName(e.target.value)}/><br/><br/>
           <label>Email : </label>
-          <input type="text" value={email} onChange={(e)=>setEmail(e.target.value)}/><br/>
+          <input type="text" value={email} onChange={(e)=>setEmail(e.target.value)}/><br/><br/>
           <label>Address : </label>
-          <input type="text" value={address} onChange={(e)=>setAddress(e.target.value)}/><br/>
-          <label>submit </label>
-          <button>Submit</button>
-          
+          <input type="text" value={address} onChange={(e)=>setAddress(e.target.value)}/><br/><br/>
+          <button>Submit</button>        
         </div>
       </form>
     </div>

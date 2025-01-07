@@ -1,24 +1,83 @@
+/* Page-level styling */
+body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvbXoekcvINJO6gImTXYL0zVEL1afVnO27MQ&s");
+  background-size: cover; /* Ensures the background image covers the entire viewport */
+  background-position: center; /* Centers the background image */
+  background-attachment: fixed; /* Keeps the background image fixed when scrolling */
+  color: rgb(15, 15, 15); /* Text color */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Makes sure the content is vertically centered */
+}
+
 /* Simple table styling */
 table {
-    width: 100%;
-    border-collapse: collapse; /* Merges borders */
-    margin: 20px 0; /* Adds space around the table */
-  }
-  
-  /* Styling for table headers */
-  th, td {
-    border: 1px solid #b3a8a8; /* Light border around cells */
-    padding: 8px; /* Adds padding inside the cells */
-    text-align: left; /* Aligns text to the left */
-  }
-  
-  /* Styling for table headers */
-  th {
-    background-color: #dabfbf; /* Light gray background for the header */
-  }
-  
-  /* Row hover effect */
-  tr:hover {
-    background-color: #cf9494; /* Light gray background when hovering over rows */
-  }
-  
+  width:1000px; /* Sets the table width to 80% of the viewport */
+  border-collapse: collapse; /* Merges borders */
+  margin: 20px 0; /* Adds space around the table */
+  background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background for readability */
+  border-radius: 8px; /* Rounded corners for a smoother look */
+}
+
+/* Styling for table cells and headers */
+th, td {
+  border: 1px solid #111010; /* Lighter border to blend with the table design */
+  padding: 12px; /* Adds padding inside the cells */
+  text-align: left; /* Aligns text to the left */
+  color:#333; /* Dark text for better readability */
+}
+
+/* Styling for table headers */
+th {
+  background-color: rgba(255, 255, 255, 0.8); /* Slightly lighter header background */
+  font-weight: bold; /* Bold text for headers */
+}
+
+/* Row hover effect */
+tr:hover {
+  background-color: rgba(182, 77, 77, 0.5); /* Semi-transparent red for row hover */
+}
+/* Form styling */
+form {
+  width: 100%; /* Form takes up 50% of the page width */
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow around the form */
+  margin-top: 30px;
+}
+
+/* Form input fields */
+textarea {
+  width: 80%; /* Makes inputs take up full width of the form */
+  padding: 10px;
+  margin: 10px 0; /* Adds margin between fields */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 4px; /* Rounded corners for input fields */
+  background-color: #f9f9f9; /* Light background for inputs */
+}
+
+/* Form buttons */
+button {
+  width: 100%; /* Button spans the full width of the form */
+  padding: 10px;
+  background-color: #b64d4d; /* Background color for button */
+  color: white; /* Button text color */
+  border: none;
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #9c3f3f; /* Darker shade on hover */
+}
+
+/* Label styling */
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}

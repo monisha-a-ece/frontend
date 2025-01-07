@@ -20,15 +20,15 @@ const CreateUser = () => {
 
   return (
     <div>
-      <h1>CreateUser</h1>
+     <center> <h1>CreateUser</h1></center>
       <form onSubmit={submit}>
         <div>
-          <label>Name</label>
-          <input type="text" onChange={(e)=>setName(e.target.value)}/><br/>
-          <label>Email</label>
-          <input type="text" onChange={(e)=>setEmail(e.target.value)}/><br/>
-          <label>Address</label>
-          <input type="text" onChange={(e)=>setAddress(e.target.value)}/><br/>
+          <label>Name : </label>
+          <input type="text" onChange={(e)=>setName(e.target.value)}/><br/><br/>
+          <label>Email : </label>
+          <input type="text" onChange={(e)=>setEmail(e.target.value)}/><br/><br/>
+          <label>Address : </label>
+          <input type="text" onChange={(e)=>setAddress(e.target.value)}/><br/><br/>
            <button>Submit</button>
           
         </div>

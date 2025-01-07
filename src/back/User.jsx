@@ -21,9 +21,9 @@ const deleteUser=(id)=>{
 
 
   return (
-    <div>
-        <h1>User</h1>
-        <Link to="/create">Create User</Link>
+    <div id="full">
+        <center><h1>User</h1>
+        <Link to="/create">Create User</Link></center>
         <table>
     <thead>
     <tr>
